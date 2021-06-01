@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/video_reel"
+    android:transitionGroup="false"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_registerMovie"
+        android:layout_width="197dp"
+        android:layout_height="46dp"
+        android:background="#DD2C00"
+        android:backgroundTint="#DD2C00"
+        android:clickable="true"
+        android:foregroundTint="#64DD17"
+        android:onClick="addMovie"
+        android:text="Register Movie"
+        android:textColor="#FFFDFD"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <Button
+        android:id="@+id/btn_displayMovie"
+        android:layout_width="197dp"
+        android:layout_height="46dp"
+        android:background="#CC1515"
+        android:backgroundTint="#AEEA00"
+        android:clickable="true"
+        android:onClick="displayMovie"
+        android:text="Display Movie"
+        android:textColor="#FDFAFA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294" />
+
+    <Button
+        android:id="@+id/btn_favourite"
+        android:layout_width="198dp"
+        android:layout_height="56dp"
+        android:onClick="favourites"
+        android:text="Favourite"
+        android:textColor="#FDFCFC"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/btn_editmovie"
+        android:layout_width="189dp"
+        android:layout_height="60dp"
+        android:checkable="false"
+        android:onClick="EditMovie"
+        android:text="Edit Movies"
+        android:textColor="#FDFCFC"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.074"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.688" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="197dp"
+        android:layout_height="46dp"
+        android:background="#C63232"
+        android:backgroundTint="#C12929"
+        android:onClick="SearchMovie"
+        android:text="Search"
+        android:textColor="#F8F5F5"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.898" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

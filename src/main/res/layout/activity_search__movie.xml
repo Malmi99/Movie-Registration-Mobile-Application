@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/posters_film_roll_moving_design"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <EditText
+            android:id="@+id/search_editText"
+            android:layout_width="362dp"
+            android:layout_height="82dp"
+            android:ems="10"
+            android:fontFamily="serif"
+            android:inputType="textPersonName"
+            android:textColor="#0C0101"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/lookup_btn"
+            android:layout_width="181dp"
+            android:layout_height="65dp"
+            android:fontFamily="serif"
+            android:text="LOOKUP"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:backgroundTint="#9E9A51" />
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="wrap_content"
+            android:layout_height="427dp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
